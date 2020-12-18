@@ -11,7 +11,7 @@ class Chktex(Linter):
     )
     defaults = {
         'selector': 'text.tex.latex - meta.block.parameters.knitr - source.r.embedded.knitr',
-        '--nowarn:,+': [22, 30],
+        '--nowarn:,+': [22, 30, 21],
         '--erroron:,+': [16],
         '--inputfiles=': [0]
     }
